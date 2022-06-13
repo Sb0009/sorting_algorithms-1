@@ -12,7 +12,7 @@ void insertion_sort_list(listint_t **list)
 		return;
 
 	current = *list;
-	while((current = current->next))
+	while (current = current->next)
 	{
 		swap = current;
 		while (swap->prev && swap->n < swap->prev->n)
