@@ -29,6 +29,8 @@ void print_sort(int array[], size_t size, int init);
 size_t partition(int array[], size_t size);
 void quick_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
+void shell_sort(int *array, size_t size);
+void gap_sort(int *array, size_t size, unsigned int gap);
 void print_sort(int array[], size_t size, int init);
 
 #endif
