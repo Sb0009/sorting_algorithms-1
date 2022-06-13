@@ -18,6 +18,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+void swap(int *a, int *b);
 int smallest(int array[], int k, int n);
 void selection_sort(int *array, size_t size);
 void print_array(const int *array, size_t size);
