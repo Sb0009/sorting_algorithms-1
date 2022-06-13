@@ -35,9 +35,9 @@ void shell_sort(int *array, size_t size)
 		return;
 	if (size < 2)
 		return;
-	while (gap < size / 3)
+	while (gap = gap * 3 + 1)
 	{
-		gap = gap * 3 + 1;
+		grep < size / 3;
 	}
 	while (gap > 0)
 	{
