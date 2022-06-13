@@ -28,6 +28,7 @@ void print_list(const listint_t *list);
 void print_sort(int array[], size_t size, int init);
 size_t partition(int array[], size_t size);
 void quick_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
 void print_sort(int array[], size_t size, int init);
 
 #endif
